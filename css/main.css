@@ -60,7 +60,7 @@
 }
 
 .fullscreen-bg-1 {
-  background-image: url("../img/backgrounds/logo-text-dark.png");
+  background-image: url("../img/backgrounds/landing-text-higher.png");
 }
 
 .fullscreen-bg-2 {
@@ -284,15 +284,15 @@ img {
 }
 
 .layer-blue-07 {
-background: -moz-linear-gradient(315deg, rgba(186, 157, 127, 0.7) 0%, rgba(186, 157, 127, 0.7) 100%);
-background: -o-linear-gradient(315deg, rgba(186, 157, 127, 0.7) 0%, rgba(186, 157, 127, 0.7) 100%);
-background: linear-gradient(135deg, rgba(186, 157, 127, 0.7) 0%, rgba(186, 157, 127, 0.7) 100%);
+background: -moz-linear-gradient(315deg, rgba(186, 157, 127, 0) 0%, rgba(186, 157, 127, 0.7) 100%);
+background: -o-linear-gradient(315deg, rgba(186, 157, 127, 0) 0%, rgba(186, 157, 127, 0.7) 100%);
+background: linear-gradient(135deg, rgba(186, 157, 127, 0) 0%, rgba(186, 157, 127, 0.7) 100%);
 }
 
 .layer-blue-04 {
-  background: -moz-linear-gradient(315deg, rgba(37, 42, 91, 0.4) 0%, rgba(27, 31, 65, 0.4) 100%);
-  background: -o-linear-gradient(315deg, rgba(37, 42, 91, 0.4) 0%, rgba(27, 31, 65, 0.4) 100%);
-  background: linear-gradient(135deg, rgba(37, 42, 91, 0.4) 0%, rgba(27, 31, 65, 0.4) 100%);
+  background: -moz-linear-gradient(315deg, rgba(37, 42, 91, 0.3) 0%, rgba(27, 31, 65, 0.4) 100%);
+  background: -o-linear-gradient(315deg, rgba(37, 42, 91, 0.3) 0%, rgba(27, 31, 65, 0.4) 100%);
+  background: linear-gradient(135deg, rgba(37, 42, 91, 0.3) 0%, rgba(27, 31, 65, 0.4) 100%);
 }
 
 .fill-accent-color {
@@ -400,8 +400,8 @@ h1 {
 
 .headline__btnholder {
   position: relative;
-  text-align: left;
-  margin: 4rem 0 0 0.2rem;
+  text-align: center;
+  margin: 50rem 0 0 0.2rem;
 }
 .headline__btnholder.centered {
   text-align: center;
