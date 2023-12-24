@@ -36,14 +36,14 @@
   z-index: 0;
 }
 .loader__shape .loader-transition-shape {
-  fill: #f2e9e9;
+  fill: #FCF6E9;
 }
 
 .loader__background {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #f2e9e9;
+  background-color: #FCF6E9;
   z-index: 0;
 }
 
@@ -53,7 +53,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #f2e9e9;
+  background-color: #FCF6E9;
   overflow-y: auto;
   z-index: 1;
 }
@@ -111,7 +111,7 @@
   -moz-border-radius: 50%;
        border-radius: 50%;
   margin: 0 2px;
-  background: #272F7C;
+  background: #483933 ;
   opacity: 0;
   -webkit-animation: fade 1s infinite;
      -moz-animation: fade 1s infinite;
@@ -149,13 +149,13 @@
   max-width: 900px;
   margin: 0 auto;
   font: normal 700 2.8rem/1.2 "Montserrat", sans-serif;
-  color: #272F7C;
+  color: #483933;
 }
 .loader__slogan #slogan-strings {
   display: none;
 }
 .loader__slogan .typed-cursor {
-  color: #FFACA3;
+  color: #FCF6E9;
   font-weight: 100;
 }
 @media only screen and (min-width: 768px) {
