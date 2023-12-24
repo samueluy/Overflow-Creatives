@@ -184,13 +184,13 @@ input::-moz-focus-inner {
 }
 
 ::-moz-selection {
-  background-color: #FFACA3;
+  background-color: #7C4845;
   color: #141414;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #FFACA3;
+  background-color: #7C4845;
   color: #141414;
   text-shadow: none;
 }
@@ -212,7 +212,7 @@ input::-moz-focus-inner {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #FFACA3;
+  background-color: #7C4845;
   border-radius: 10px;
 }
 
@@ -235,7 +235,7 @@ body {
   overflow-x: hidden !important;
   font: normal 400 1.6rem/1.7 "Montserrat", sans-serif;
   color: #444444;
-  background-color: #fbfbfb;
+  background-color: #FCF6E9;
   text-rendering: optimizeLegibility;
 }
 
@@ -296,15 +296,15 @@ img {
 }
 
 .fill-accent-color {
-  fill: #FFACA3;
+  fill: #7C4845;
 }
 
 .fill-accent-color-two {
-  fill: #67F2E0;
+  fill: #3A2F2F;
 }
 
 .fill-base-color {
-  fill: #272F7C;
+  fill: #483933;
 }
 
 .fill-white {
@@ -312,11 +312,11 @@ img {
 }
 
 .bg-accent-color {
-  background-color: #FFACA3;
+  background-color: #7C4845;
 }
 
 .bg-base-color {
-  background-color: #272F7C;
+  background-color: #483933;
 }
 
 .bg-white {
@@ -324,7 +324,7 @@ img {
 }
 
 .bg-graypink {
-  background-color: #F9F4F4;
+  background-color: #FCF6E9;
 }
 
 /* ------------------------------------------------*/
@@ -359,7 +359,7 @@ h1 {
 }
 
 .typed-cursor {
-  color: #FFACA3;
+  color: #7C4845;
   font-weight: 100;
 }
 
@@ -409,7 +409,7 @@ h1 {
 
 h2 {
   font: normal 700 4.8rem/1 "Montserrat", sans-serif;
-  color: #272F7C;
+  color: #483933;
 }
 @media only screen and (min-width: 768px) {
   h2 {
@@ -452,7 +452,7 @@ h2 {
 
 h3 {
   font: normal 700 2.4rem/1.2 "Montserrat", sans-serif;
-  color: #272F7C;
+  color: #483933;
 }
 @media only screen and (min-width: 1400px) {
   h3 {
@@ -488,13 +488,13 @@ p span {
   color: #ffffff;
 }
 .no-touch .main__credits a:hover {
-  color: #67F2E0;
+  color: #3A2F2F;
 }
 .main__credits.dark p, .main__credits.dark a {
   color: #141414;
 }
 .no-touch .main__credits.dark a:hover {
-  color: #FFACA3;
+  color: #7C4845;
 }
 
 .features__item p {
@@ -518,7 +518,7 @@ blockquote i {
   display: block;
   font-size: 7rem;
   line-height: 0.8;
-  color: #272F7C;
+  color: #483933;
 }
 blockquote p {
   font: italic 300 2rem/1.7 "Montserrat", sans-serif;
@@ -562,7 +562,7 @@ blockquote cite span {
 
 .popup-title__title {
   font: normal 700 2.8rem/1.2 "Montserrat", sans-serif;
-  color: #272F7C;
+  color: #483933;
 }
 @media only screen and (min-width: 768px) {
   .popup-title__title {
@@ -586,7 +586,7 @@ blockquote cite span {
 
 .additional__title {
   font: normal 700 2.8rem/1.2 "Montserrat", sans-serif;
-  color: #272F7C;
+  color: #483933;
 }
 .additional__title.light {
   color: #ffffff;
@@ -612,13 +612,13 @@ blockquote cite span {
   color: #141414;
 }
 .additional__subtitle.light {
-  color: #ffffff;
+  color: #483933;
   font-weight: 300;
 }
 
 .footer__slogan p {
   font: italic 300 1.6rem/1.5 "Montserrat", sans-serif;
-  color: #ffffff;
+  color: #483933;
   max-width: 480px;
   margin: 0 auto;
 }
@@ -662,7 +662,7 @@ blockquote cite span {
   height: 3px;
   -moz-border-radius: 3px;
        border-radius: 3px;
-  background-color: #272F7C;
+  background-color: #483933;
   -webkit-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
@@ -745,7 +745,7 @@ blockquote cite span {
 }
 
 .menu-btn-morphing-path {
-  fill: #FFACA3;
+  fill: #7C4845;
   -webkit-transition: fill 0.5s ease-in-out;
   -o-transition: fill 0.5s ease-in-out;
   -moz-transition: fill 0.5s ease-in-out;
@@ -796,7 +796,7 @@ blockquote cite span {
   height: 100%;
   -moz-border-radius: 3px;
        border-radius: 3px;
-  background-color: #1b2157;
+  background-color: #FCF6E9;
   -webkit-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
@@ -815,7 +815,7 @@ blockquote cite span {
           transform: translateY(4px);
 }
 .no-touch .menu-trigger:hover span::before, .no-touch .menu-trigger:hover span::after {
-  background-color: #272F7C;
+  background-color: #ffffff;
 }
 @media only screen and (min-width: 1400px) {
   .menu-trigger {
@@ -870,13 +870,13 @@ blockquote cite span {
 }
 
 .btn-light {
-  color: #272F7C;
-  background-color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #7C4845;
+  border: 2px solid #7C4845;
 }
 .btn-light .btn-caption,
 .btn-light i {
-  color: #272F7C;
+  color: #ffffff;
 }
 .no-touch .btn-light:hover {
   background-color: transparent;
@@ -902,13 +902,13 @@ blockquote cite span {
 }
 .no-touch .btn-outline-light:hover .btn-caption,
 .no-touch .btn-outline-light:hover i {
-  color: #272F7C;
+  color: #483933;
 }
 
 .btn-dark {
   color: #ffffff;
-  background-color: #272F7C;
-  border: 2px solid #272F7C;
+  background-color: #7C4845;
+  border: 2px solid #7C4845;
 }
 .btn-dark .btn-caption,
 .btn-dark i {
@@ -916,11 +916,11 @@ blockquote cite span {
 }
 .no-touch .btn-dark:hover {
   background-color: transparent;
-  border: 2px solid #272F7C;
+  border: 2px solid #7C4845;
 }
 .no-touch .btn-dark:hover .btn-caption,
 .no-touch .btn-dark:hover i {
-  color: #272F7C;
+  color: #7C4845;
 }
 
 .headline .btn {
@@ -948,7 +948,7 @@ blockquote cite span {
   bottom: 20px;
   -moz-border-radius: 2px;
        border-radius: 2px;
-  background-color: #272F7C;
+  background-color: #483933;
   overflow: hidden;
   z-index: 10;
   color: #ffffff;
@@ -1085,7 +1085,7 @@ blockquote cite span {
   color: #141414;
 }
 .form-dark input:focus, .form-dark textarea:focus {
-  border-bottom: 1px solid #272F7C;
+  border-bottom: 1px solid #483933;
 }
 .form-dark .inputs-description {
   color: #727272;
@@ -1132,7 +1132,7 @@ blockquote cite span {
   display: block;
   font-size: 5rem;
   line-height: 1;
-  color: #FFACA3;
+  color: #7C4845;
 }
 
 .reply-group__title {
@@ -1206,7 +1206,7 @@ blockquote cite span {
 /* ------------------------------------------------*/
 .main {
   position: relative;
-  background-color: #272F7C;
+  background-color: #483933;
 }
 
 .main__background {
@@ -1417,7 +1417,7 @@ blockquote cite span {
 }
 
 .main-side-path {
-  fill: #272F7C;
+  fill: #483933;
 }
 
 .media-background {
@@ -1645,7 +1645,7 @@ blockquote cite span {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #f2e9e9;
+  background-color: #FCF6E9;
   padding: 2.4rem 0;
   overflow-y: auto;
   z-index: 2;
@@ -1768,10 +1768,10 @@ blockquote cite span {
   opacity: 1;
 }
 .navigation li.active a {
-  color: #272F7C;
+  color: #483933;
 }
 .no-touch .navigation li:hover a {
-  color: #272F7C;
+  color: #483933;
 }
 @media only screen and (min-width: 1400px) {
   .navigation li a {
@@ -1783,7 +1783,7 @@ blockquote cite span {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #f2e9e9;
+  background-color: #FCF6E9;
   z-index: 0;
 }
 
@@ -1793,7 +1793,7 @@ blockquote cite span {
   z-index: 1;
 }
 .menu__shape .menu-transition-shape {
-  fill: #f2e9e9;
+  fill: #FCF6E9;
 }
 
 /* ------------------------------------------------*/
@@ -1828,10 +1828,10 @@ blockquote cite span {
   transition: color 0.5s ease-in-out;
 }
 .no-touch .socials li:hover a {
-  color: #FFACA3;
+  color: #7C4845;
 }
 .socials li.mobile-dark a {
-  color: #272F7C;
+  color: #483933;
 }
 .socials.large a {
   font-size: 2rem;
@@ -1868,7 +1868,7 @@ blockquote cite span {
   transition: all 0.3s ease-in-out;
 }
 .no-touch .menu-socials li:hover a {
-  color: #272F7C;
+  color: #483933;
 }
 @media only screen and (min-width: 1400px) {
   .menu-socials li a {
@@ -2005,7 +2005,7 @@ blockquote cite span {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #f2e9e9;
+  background-color: #FCF6E9;
   padding: 2.4rem 0;
   overflow-y: auto;
   z-index: 2;
@@ -2069,7 +2069,7 @@ blockquote cite span {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #f2e9e9;
+  background-color: #FCF6E9;
   z-index: 0;
 }
 
@@ -2079,7 +2079,7 @@ blockquote cite span {
   z-index: 1;
 }
 .popup__shape .popup-transition-shape {
-  fill: #f2e9e9;
+  fill: #FCF6E9;
 }
 
 .popup-title {
@@ -2595,7 +2595,7 @@ blockquote cite span {
   left: 0;
   width: 100%;
   height: 40%;
-  background-color: #272F7C;
+  background-color: #483933;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 47, 124, 0)), to(rgba(39, 47, 124, 0.8)));
   background: -moz-linear-gradient(top, rgba(39, 47, 124, 0) 0%, rgba(39, 47, 124, 0.8) 100%);
   background: -o-linear-gradient(top, rgba(39, 47, 124, 0) 0%, rgba(39, 47, 124, 0.8) 100%);
@@ -2632,7 +2632,7 @@ blockquote cite span {
        -moz-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%);
-    background-color: #272F7C;
+    background-color: #483933;
     -webkit-transition: -webkit-transform 0.6s;
     transition: -webkit-transform 0.6s;
     -o-transition: transform 0.6s;
@@ -2737,7 +2737,7 @@ blockquote cite span {
 
 .pswp__button--close {
   position: relative;
-  background-color: #FFACA3;
+  background-color: #7C4845;
 }
 .pswp__button--close:active {
   opacity: 1;
