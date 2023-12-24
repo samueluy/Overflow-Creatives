@@ -60,7 +60,7 @@
 }
 
 .fullscreen-bg-1 {
-  background-image: url("https://dummyimage.com/1920x1080/242424/7a7a7a");
+  background-image: url("../img/backgrounds/logo-text-dark.png");
 }
 
 .fullscreen-bg-2 {
@@ -84,7 +84,7 @@
 }
 
 .features-image {
-  background-image: url("https://dummyimage.com/1000x1200/242424/7a7a7a");
+  background-image: url("../img/portfolio/Portfolio_3.jpg");
 }
 
 .quote-image {
@@ -96,11 +96,11 @@
 }
 
 .feature-image-1 {
-  background-image: url("https://dummyimage.com/1200x900/242424/7a7a7a");
+  background-image: url('../img/portfolio/Portfolio_1.jpg') 
 }
 
 .feature-image-2 {
-  background-image: url("https://dummyimage.com/1200x900/242424/7a7a7a");
+  background-image: url("../img/portfolio/Portfolio_2.jpg");
 }
 
 .feature-image-3 {
@@ -284,9 +284,9 @@ img {
 }
 
 .layer-blue-07 {
-  background: -moz-linear-gradient(315deg, rgba(37, 42, 91, 0.7) 0%, rgba(27, 31, 65, 0.7) 100%);
-  background: -o-linear-gradient(315deg, rgba(37, 42, 91, 0.7) 0%, rgba(27, 31, 65, 0.7) 100%);
-  background: linear-gradient(135deg, rgba(37, 42, 91, 0.7) 0%, rgba(27, 31, 65, 0.7) 100%);
+background: -moz-linear-gradient(315deg, rgba(186, 157, 127, 0.7) 0%, rgba(186, 157, 127, 0.7) 100%);
+background: -o-linear-gradient(315deg, rgba(186, 157, 127, 0.7) 0%, rgba(186, 157, 127, 0.7) 100%);
+background: linear-gradient(135deg, rgba(186, 157, 127, 0.7) 0%, rgba(186, 157, 127, 0.7) 100%);
 }
 
 .layer-blue-04 {
@@ -308,7 +308,7 @@ img {
 }
 
 .fill-white {
-  fill: #ffffff;
+  fill: #FCF6E9;
 }
 
 .bg-accent-color {
@@ -320,7 +320,7 @@ img {
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #FCF6E9;
 }
 
 .bg-graypink {
@@ -2279,7 +2279,7 @@ blockquote cite span {
 /* ------------------------------------------------*/
 .inner {
   position: relative;
-  background-color: #ffffff;
+  background-color: #FCF6E9;
 }
 
 .inner__media {
