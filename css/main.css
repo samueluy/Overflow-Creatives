@@ -539,7 +539,7 @@ blockquote cite {
   display: block;
   font: normal 400 1.2rem/1.5 "Montserrat", sans-serif;
   margin: 1.8rem 0 0 0;
-  color: #999999;
+  color: #7C4745;
 }
 blockquote cite span {
   display: block;
@@ -2401,7 +2401,7 @@ blockquote cite span {
 }
 
 .quote-morphing-object {
-  fill: #f7f7f7;
+  fill: #BA9D7F;
 }
 
 .footer {
