@@ -208,7 +208,8 @@ $(function() {
   // --------------------------------------------- //
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
-    url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=54a7906900'
+    // url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=54a7906900'
+    url: 'https://overflowcreatives.us12.list-manage.com/subscribe/post?u=738aedc88cbbe92a0ae9593fe&amp;id=e29db7ea1b&amp;f_id=007845e0f0'
   });
 
   function mailchimpCallback(resp) {
