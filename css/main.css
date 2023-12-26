@@ -422,7 +422,7 @@ h2 {
   height: 15px;
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("../img/svg/divider-title.svg");
+  background-image: url("../img/svg/divider-title-2.svg");
   margin: 1.8rem 0 0 0;
 }
 
@@ -539,7 +539,7 @@ blockquote cite {
   display: block;
   font: normal 400 1.2rem/1.5 "Montserrat", sans-serif;
   margin: 1.8rem 0 0 0;
-  color: #7C4745;
+  color: #483933;
 }
 blockquote cite span {
   display: block;
@@ -685,7 +685,7 @@ blockquote cite span {
 .no-touch .menu-close:hover::before, .no-touch .menu-close:hover::after,
 .no-touch .popup-close:hover::before,
 .no-touch .popup-close:hover::after {
-  background-color: #483933;
+  background-color: #7C4745;
 }
 .menu-close.is-scaled-up,
 .popup-close.is-scaled-up {
@@ -1745,7 +1745,7 @@ blockquote cite span {
   width: 50px;
   height: 50px;
   background-repeat: no-repeat;
-  background-image: url("../img/svg/menu-active-1.svg");
+  background-image: url("../img/svg/menu-active-4.svg");
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
@@ -2632,7 +2632,7 @@ blockquote cite span {
        -moz-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%);
-    background-color: #483933;
+    background-color: #7C4745;
     -webkit-transition: -webkit-transform 0.6s;
     transition: -webkit-transform 0.6s;
     -o-transition: transform 0.6s;
