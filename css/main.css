@@ -506,7 +506,7 @@ p span {
   margin: 1.4rem 0;
   background-repeat: no-repeat;
   background-position: left;
-  background-image: url("../img/svg/divider-small.svg");
+  background-image: url("../img/svg/divider-small-3.png");
 }
 
 blockquote {
@@ -533,7 +533,7 @@ blockquote .divider {
   margin: 1.4rem 0 0 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/svg/divider-small.svg");
+  background-image: url("../img/svg/divider-small-3.png");
 }
 blockquote cite {
   display: block;
@@ -577,7 +577,7 @@ blockquote cite span {
   margin: 1.4rem 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/svg/divider-small.svg");
+  background-image: url("../img/svg/divider-small-3.png");
 }
 
 .popup-title__subtitle {
@@ -590,7 +590,7 @@ blockquote cite span {
 }
 .additional__title.light {
   color: #ffffff;
-}
+} 
 @media only screen and (min-width: 768px) {
   .additional__title {
     font-size: 4rem;
@@ -604,7 +604,7 @@ blockquote cite span {
   margin: 1.4rem 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/svg/divider-small.svg");
+  background-image: url("../img/svg/divider-small-3.png");
 }
 
 .additional__subtitle {
