@@ -72,7 +72,7 @@
 }
 
 .about-image {
-  background-image: url("https://dummyimage.com/1000x1200/242424/7a7a7a");
+  background-image: url("../img/misc/1-about-us.jpg");
 }
 
 .about-image-2 {
@@ -80,27 +80,27 @@
 }
 
 .about-image-3 {
-  background-image: url("https://dummyimage.com/1000x1200/242424/7a7a7a");
+  background-image: url("../img/misc/1-about-us.jpg");
 }
 
 .features-image {
-  background-image: url("../img/portfolio/Portfolio_3.jpg");
+  background-image: url("../img/misc/2_image.jpg");
 }
 
 .quote-image {
-  background-image: url("https://dummyimage.com/1000x1200/242424/7a7a7a");
+  background-image: url("../img/misc/4-quote.jpg");
 }
 
 .contact-image {
-  background-image: url("https://dummyimage.com/1000x1200/242424/7a7a7a");
+  background-image: url("../img/misc/5-contact-us.jpg");
 }
 
 .feature-image-1 {
-  background-image: url('../img/portfolio/Portfolio_1.jpg') 
+  background-image: url('../img/misc/2-designs.jpg') 
 }
 
 .feature-image-2 {
-  background-image: url("../img/portfolio/Portfolio_2.jpg");
+  background-image: url("../img/misc/2-trendy-fonts.jpg");
 }
 
 .feature-image-3 {
