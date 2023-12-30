@@ -472,6 +472,20 @@ h4 small {
   margin-top: 0.6rem;
 }
 
+h5 {
+  font: normal 700 1.8rem/1.2 "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #483933;
+}
+h5 small {
+  display: block;
+  font: italic 300 1.4rem/1.2 "Montserrat", sans-serif;
+  text-transform: none;
+  margin-top: 0.6rem;
+}
+
+
+
 p {
   font: normal 400 1.6rem/1.7 "Montserrat", sans-serif;
   color: #444444;
@@ -479,6 +493,15 @@ p {
 p span {
   font-weight: 600;
 }
+
+.creativeprocess-list {
+  margin-bottom: 15px;
+}
+
+p.creativeprocess-description {
+  margin-left: 20px;
+}
+
 
 .main__credits p,
 .main__credits a {
