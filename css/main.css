@@ -594,16 +594,10 @@ blockquote cite {
 blockquote cite span {
   display: block;
 }
+
 @media only screen and (max-width: 768px) {
-  blockquote i {
-    font-size: 5rem;
-  }
-  blockquote p {
-    margin: 1.5rem 0 0 0;
-    font-size: 1.6rem;
-  }
-  blockquote cite {
-    font-size: 0.8rem;
+  .section[data-anchor="blockquote"] {
+    display: none;
   }
 }
 
@@ -2417,6 +2411,13 @@ blockquote cite span {
   height: auto;
   padding: 10rem 10%;
 }
+
+@media only screen and (max-width: 726px){
+  .content-block {
+    padding: 5rem 10%;
+  }
+}
+
 .content-block.footer-block {
   padding: 7.2rem 10%;
 }
