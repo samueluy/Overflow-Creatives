@@ -61,8 +61,8 @@
 
 .fullscreen-bg-1 {
   background-image: url("../img/backgrounds/landing-text-higher.png");
-}
 
+}
 .fullscreen-bg-2 {
   background-image: url("https://dummyimage.com/1920x1080/242424/7a7a7a");
 }
@@ -403,8 +403,19 @@ h1 {
   text-align: center;
   margin: 50rem 0 0 0.2rem;
 }
+
+
 .headline__btnholder.centered {
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline__btnholder {
+    margin: 40rem 0 0 0.2rem;
+  }
+  .headline__btnholder.centered {
+    text-align: center;
+  }
 }
 
 h2 {
@@ -952,9 +963,9 @@ blockquote cite span {
 .headline .btn:last-of-type {
   margin: 0;
 }
-@media only screen and (min-width: 768px) {
-  .headline .btn {
-    margin: 0 1.6rem 0 0;
+@media only screen and (max-width: 768px) {
+  .headline .btn{
+    margin: 0 0 1.5rem 0;
   }
   .headline .btn:last-of-type {
     margin: 0;
@@ -1253,6 +1264,14 @@ blockquote cite span {
   max-height: 100%;
   z-index: 0;
   fill: #483933;
+}
+
+@media only screen and (max-width: 767px) {
+  .fullscreen-bg-1 {
+    background-image: url("../img/backgrounds/landing-text-higher-mobile.png"); /* Optional: A different, more suitable image for mobile */
+    background-size: cover; /* Use 'contain' to ensure the entire image is visible */
+    background-position: top center; /* Adjust if needed to focus on a specific part of the image */
+  }
 }
 
 .main__logo {
