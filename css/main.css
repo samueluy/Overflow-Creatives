@@ -83,6 +83,11 @@
   background-image: url("../img/misc/1-about-us.jpg");
 }
 
+.creativeprocess-image {
+  background-image: url("https://dummyimage.com/1200x1000/242424/7a7a7a%22");
+  /* background-image: url("../img/misc/3-creative-process.jpg"); */
+}
+
 .features-image {
   background-image: url("../img/misc/2_image.jpg");
 }
