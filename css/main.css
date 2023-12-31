@@ -103,6 +103,20 @@
   background-image: url("../img/misc/2-trendy-fonts.jpg");
 }
 
+.feature-image-2-mobile {
+  background-image: url("../img/misc/2-trendy-fonts.jpg");
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .feature-image-2{
+    display: none;
+  }
+  .feature-image-2-mobile {
+    display: block;
+  }
+}
+
 .feature-image-3 {
   background-image: url("https://dummyimage.com/1200x900/242424/7a7a7a");
 }
@@ -410,11 +424,8 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-  .headline__btnholder {
-    margin: 40rem 0 0 0.2rem;
-  }
-  .headline__btnholder.centered {
-    text-align: center;
+  .main__intro{
+    margin-bottom: 5rem;
   }
 }
 
@@ -578,15 +589,16 @@ blockquote cite {
 blockquote cite span {
   display: block;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   blockquote i {
-    font-size: 7rem;
+    font-size: 5rem;
   }
   blockquote p {
-    font-size: 2.8rem;
+    margin: 1.5rem 0 0 0;
+    font-size: 1.6rem;
   }
   blockquote cite {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -1307,9 +1319,12 @@ blockquote cite span {
 .main__content.split, .main__content.fullscreen {
   padding: 0;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 767px) {
   .main__content {
-    padding: 0;
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    padding: 1rem 0; /* Adjust padding for smaller screens */
+    overflow: auto; /* In case the content exceeds the viewport height */
   }
 }
 
@@ -1496,6 +1511,16 @@ blockquote cite span {
 .main__socials.fullscreen {
   margin-bottom: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .main__socials.fullscreen {
+    position: absolute; 
+    top: 2.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .main__socials {
     width: auto;
@@ -2349,6 +2374,7 @@ blockquote cite span {
   }
 }
 
+
 .media__image {
   position: relative;
   height: 600px;
@@ -2360,9 +2386,13 @@ blockquote cite span {
 .media__image.top-position {
   background-position: top center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .media__image {
-    height: 760px;
+    display: none;
+  }
+
+  .contact-image{
+    display: none;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -2385,6 +2415,7 @@ blockquote cite span {
 .content-block.footer-block {
   padding: 7.2rem 10%;
 }
+
 @media only screen and (min-width: 1200px) {
   .content-block {
     position: absolute;
@@ -2494,9 +2525,14 @@ blockquote cite span {
   -moz-background-size: cover;
        background-size: cover;
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 768px) {
+  .features .row.g-0:nth-child(2) {
+    flex-direction: row-reverse; /* Reverse the order on larger screens */
+  }
+
   .features__image {
-    height: 360px;
+    height: 125px;
   }
 }
 @media only screen and (min-width: 1200px) {
