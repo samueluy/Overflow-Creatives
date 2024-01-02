@@ -429,8 +429,9 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-  .main__intro{
-    margin-bottom: 5rem;
+
+  .headline__btnholder{
+    margin-top: 60vh;
   }
 }
 
