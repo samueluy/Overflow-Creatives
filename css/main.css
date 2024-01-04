@@ -1509,6 +1509,7 @@ blockquote cite span {
 }
 .main__socials.fullscreen {
   margin-bottom: 0;
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
