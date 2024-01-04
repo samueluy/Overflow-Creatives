@@ -84,8 +84,7 @@
 }
 
 .creativeprocess-image {
-  background-image: url("https://dummyimage.com/1200x1000/242424/7a7a7a%22");
-  /* background-image: url("../img/misc/3-creative-process.jpg"); */
+  background-image: url("../img/misc/5-creativeprocess.gif");
 }
 
 .features-image {
@@ -97,7 +96,7 @@
 }
 
 .contact-image {
-  background-image: url("../img/misc/5-contact-us.jpg");
+  background-image: url("../img/misc/6-contact-us.jpg");
 }
 
 .feature-image-1 {
