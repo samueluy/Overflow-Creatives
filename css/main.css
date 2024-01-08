@@ -1705,6 +1705,19 @@ blockquote cite span {
   transition: transform 0.3s 0.7s, opacity 0.3s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0.3s 0.7s, -webkit-transform 0.3s 0.7s, -moz-transform 0.3s 0.7s;
 }
+.menu.is-visible .navigation li:nth-of-type(7) {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+     -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: opacity 0.3s 0.8s, -webkit-transform 0.3s 0.8s;
+  transition: opacity 0.3s 0.8s, -webkit-transform 0.3s 0.8s;
+  -o-transition: transform 0.3s 0.8s, opacity 0.3s 0.8s;
+  -moz-transition: transform 0.3s 0.8s, opacity 0.3s 0.8s, -moz-transform 0.3s 0.8s;
+  transition: transform 0.3s 0.8s, opacity 0.3s 0.8s;
+  transition: transform 0.3s 0.8s, opacity 0.3s 0.8s, -webkit-transform 0.3s 0.8s, -moz-transform 0.3s 0.8s;
+}
 .menu.is-visible .menu-socials {
   opacity: 1;
   -webkit-transform: translateY(0);
