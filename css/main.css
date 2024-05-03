@@ -60,7 +60,7 @@
 }
 
 .fullscreen-bg-1 {
-  background-image: url("../img/backgrounds/landing-text-higher.png");
+  background-image: url("../img/backgrounds/landing-text-higher.webp");
 
 }
 .fullscreen-bg-2 {
@@ -80,7 +80,7 @@
 }
 
 .about-image-3 {
-  background-image: url("../img/misc/1-about-us.jpg");
+  background-image: url("../img/misc/1-about-us.webp");
 }
 
 .creativeprocess-image {
@@ -88,27 +88,27 @@
 }
 
 .features-image {
-  background-image: url("../img/misc/2_image.jpg");
+  background-image: url("../img/misc/2_image.webp");
 }
 
 .quote-image {
-  background-image: url("../img/misc/4-quote.jpg");
+  background-image: url("../img/misc/4-quote.webp");
 }
 
 .contact-image {
-  background-image: url("../img/misc/6-contact-us.jpg");
+  background-image: url("../img/misc/6-contact-us.webp");
 }
 
 .feature-image-1 {
-  background-image: url('../img/misc/2-designs.jpg') 
+  background-image: url('../img/misc/2-designs.webp') 
 }
 
 .feature-image-2 {
-  background-image: url("../img/misc/2-trendy-fonts.jpg");
+  background-image: url("../img/misc/2-trendy-fonts.webp");
 }
 
 .feature-image-2-mobile {
-  background-image: url("../img/misc/2-trendy-fonts.jpg");
+  background-image: url("../img/misc/2-trendy-fonts.webp");
   display: none;
 }
 
@@ -1279,7 +1279,7 @@ blockquote cite span {
 
 @media only screen and (max-width: 767px) {
   .fullscreen-bg-1 {
-    background-image: url("../img/backgrounds/landing-text-higher-mobile.png"); /* Optional: A different, more suitable image for mobile */
+    background-image: url("../img/backgrounds/landing-text-higher-mobile.webp"); /* Optional: A different, more suitable image for mobile */
     background-size: cover; /* Use 'contain' to ensure the entire image is visible */
     background-position: top center; /* Adjust if needed to focus on a specific part of the image */
   }
