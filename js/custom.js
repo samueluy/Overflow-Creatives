@@ -236,7 +236,25 @@ $(function() {
   // --------------------------------------------- //
   // Mailchimp Notify Form End
   // --------------------------------------------- //
-
+  document.addEventListener("DOMContentLoaded", function() {
+    let lazyImages = document.querySelectorAll('img[loading="lazy"]');
+    let imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          let image = entry.target;
+          image.src = image.dataset.src; // Set the actual image URL from data-src
+          observer.unobserve(image); // Stop observing the image
+        }
+      });
+    }, {
+      rootMargin: "0px 0px 50px 0px",
+      threshold: 0.01
+    });
+  
+    lazyImages.forEach((img) => {
+      imageObserver.observe(img);
+    });
+  });
   // --------------------------------------------- //
   // Contact Form Start
   // --------------------------------------------- //
